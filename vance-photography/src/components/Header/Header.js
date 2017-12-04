@@ -8,8 +8,9 @@ class Header extends Component {
       <div className="dropdown">
           <a className="dropdown-toggle" data-toggle="dropdown">Dropdown </a>
             <ul>
-              <li><Link to='/'>Action 1</Link></li>
-              <li><Link to='about'>Action 2</Link></li>
+              <li><Link to='/'>HOME</Link></li>
+              <li><Link to='/gallery'>GALLERY</Link></li>
+              <li><Link to='/about'>ABOUT</Link></li>
             </ul>
       </div>
     );
