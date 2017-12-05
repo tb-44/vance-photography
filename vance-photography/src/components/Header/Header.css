@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown {
+    background-color: yellow;
+    height: 70px;
+    display: flex; 
+}
+
+ul li {
+    text-decoration: none;
+}
+

@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
 
-      <div className="dropdown">
+      <div className="App">
         <Header/>
         THIS IS THE HOME PAGE
       </div>
