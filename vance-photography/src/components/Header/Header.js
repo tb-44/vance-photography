@@ -11,9 +11,9 @@ class Header extends Component {
           <nav>
             <h1 className="title" >Vance_<span>Photography</span></h1>
             <ul>
-              <li><Link to='/'>HOME</Link></li>
-              <li><Link to='/gallery'>GALLERY</Link></li>
-              <li><Link to='/about'>ABOUT</Link></li>
+              <li><Link to='/'>Home</Link></li>
+              <li><Link to='/gallery'>Gallery</Link></li>
+              <li><Link to='/about'>About</Link></li>
             </ul>
           </nav>
         </header>

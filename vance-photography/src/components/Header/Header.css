@@ -1,8 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Cormorant+Unicase";
+@import "https://fonts.googleapis.com/css?family=Felipa";
 
 body {
     margin: 0;
-    background-color: greenyellow;
 }
 
 header {
@@ -10,6 +10,8 @@ header {
     color: black;
     padding: 8px 0px 6px 40px;
     height: 50px;
+    box-shadow: 4px 4px 12px -2px #706F6F; 
+    border-bottom: 2px solid #2B2525;
 }
 
 span {
@@ -19,8 +21,14 @@ span {
 header h1 {
     display: inline;
     font-family: 'Cormorant Unicase', serif;
-    font-weight: 800;
     font-size: 35px;
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Felipa', serif;
 }
 
 nav ul {
@@ -31,10 +39,6 @@ nav ul li {
     display: inline-block;
     list-style-type: none;
     color: white;
-}
-
-ul {
-    text-decoration: none;
 }
 
 .title {
