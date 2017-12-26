@@ -38,7 +38,7 @@ class Header extends Component {
       <div className="container">
         <header>
           <nav>
-            <h1 className="title" >Vance_<span>Photography</span></h1>
+            <h1 className="title" >Vance <span className="title2">Photography</span></h1>
             <ul>
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/gallery'>Gallery</Link></li>
