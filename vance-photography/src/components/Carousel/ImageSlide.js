@@ -1,4 +1,4 @@
-
+import React, { Component } from 'react';
 
 const ImageSlide = ({ url }) => {
   const styles = {
@@ -12,3 +12,5 @@ const ImageSlide = ({ url }) => {
     </div>
   );
 }
+
+export default ImageSlide;

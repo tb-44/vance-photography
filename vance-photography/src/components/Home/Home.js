@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './../Header/Header';
+import Carousel from './../Carousel/Carousel';
 
 
 class Home extends Component {
@@ -8,7 +9,7 @@ class Home extends Component {
 
       <div className="App">
         <Header/>
-        THIS IS THE HOME PAGE
+        <Carousel/>
       </div>
     );
   }

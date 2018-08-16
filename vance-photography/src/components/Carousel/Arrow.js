@@ -7,3 +7,5 @@ const Arrow = ({ direction, clickFunction, glyph }) => (
     {glyph}
   </div>
 );
+
+export default Arrow;
