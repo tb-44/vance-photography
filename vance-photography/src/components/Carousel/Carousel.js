@@ -53,7 +53,7 @@ class Carousel extends Component {
           clickFunction={this.previousSlide}
           glyph="&#9664;" />
 
-        <ImageSlide url={imgUrl} />
+        <ImageSlide url={imgUrls} />
 
         <Arrow
           direction="right"
@@ -63,5 +63,6 @@ class Carousel extends Component {
     );
   }
 }
+
 
 export default Carousel;
